@@ -1,0 +1,9 @@
+﻿Nombre,Cantidad,Componente
+"USemaforo",1," Arduino Uno R3"
+"D1",1,"Rojo LED"
+"R1, R2, R3, R4, R5, R6, R7",7,"330 Ω Resistencia"
+"D2, D5",2,"Amarillo LED"
+"D3",1,"Verde LED"
+"D4",1,"Naranja LED"
+"D6",1,"Azul LED"
+"D7",1,"Blanco LED"
