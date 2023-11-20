@@ -8,11 +8,11 @@ void setup(){
 void loop(){
   x = digitalRead(3);
 
-  for(x=1){
+  for(x==1){
     digitalWrite(7,1);
   }
 
-  for(x=0){
+  for(x==0){
     digitalWrite(7,0);
   }
 }
