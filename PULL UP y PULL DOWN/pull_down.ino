@@ -6,5 +6,10 @@ void setup(){
 }
 
 void loop(){
-  digitalWrite(7, digitalRead(3));
+  if(digitalRead(3)==1){
+    digitalWrite(7,1);
+  }
+  else{
+    digitalWrite(7,0);
+  }
 }
