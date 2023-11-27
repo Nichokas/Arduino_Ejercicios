@@ -13,9 +13,9 @@ void setup(){
 }
 
 void loop(){
-  if(digitalRead(2)==1){x=1}
-  if(digitalRead(2)==0){x=0}
-  if(x==1){
+  if(digitalRead(2)==1){y=1}
+  if(digitalRead(2)==0){y=0}
+  if(y==1){
     for(x=4;x<10;x++){
         digitalWrite(x,1);
         delay(350);
