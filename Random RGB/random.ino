@@ -22,13 +22,7 @@ void loop()
   z=random(255);
   
   color(x,y,z);
-  
-  Serial.print(x);
-  Serial.print(" ");
-  Serial.print(y);
-  Serial.print(" ");
-  Serial.print(z);
-  Serial.println("");
+  print(x,y,z);
 }
 
 void color(int R,int A,int V){
@@ -36,3 +30,11 @@ void color(int R,int A,int V){
   analogWrite(a, A);
   analogWrite(v, V);
   delay(200);}
+
+void print(int R, int A, int V){
+  Serial.print(R);
+  Serial.print(" ");
+  Serial.print(A);
+  Serial.print(" ");
+  Serial.print(V);
+  Serial.println("");}
