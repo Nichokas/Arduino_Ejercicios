@@ -1,7 +1,12 @@
 int r=0;
 int a=0;
 int v=0;
+
 int i;
+
+int x=0;
+int y=0;
+int z=0;
 
 void setup()
 {
@@ -12,13 +17,15 @@ void setup()
 
 void loop()
 {
-  r=random(255);
-  a=random(255);
-  v=random(255);
+  x=random(1, 255);
+  y=random(1, 255);
+  z=random(1, 255);
   
-  color(r,a,v);
+  color(x,y,z);
   
-  Serial.println();
+  Serial.println(x);
+  Serial.print(y);
+  Serial.print(z);
 }
 
 void color(int R,int A,int V){
