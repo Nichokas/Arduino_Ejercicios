@@ -17,12 +17,12 @@ void setup()
 
 void loop()
 {
-    digitalWrite(A=1);
-    digitalWrite(B=0);
-    digitalWrite(C=0);
-    digitalWrite(D=5);
-    digitalWrite(E=0);
-    digitalWrite(F=0);
-    digitalWrite(G=0);
+    digitalWrite(A,1);
+    digitalWrite(B,0);
+    digitalWrite(C,0);
+    digitalWrite(D,5);
+    digitalWrite(E,0);
+    digitalWrite(F,0);
+    digitalWrite(G,0);
 
 }
