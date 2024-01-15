@@ -100,4 +100,16 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,0);
   digitalWrite(DP,0);
+
+//8
+  digitalWrite(A,1);
+  digitalWrite(B,1);
+  digitalWrite(C,1);
+  digitalWrite(D,1);
+  digitalWrite(E,1);
+  digitalWrite(F,1);
+  digitalWrite(G,1);
+  digitalWrite(DP,0);
+
+
 }
