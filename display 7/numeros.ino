@@ -120,4 +120,14 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
+
+  //10
+  digitalWrite(A,0);
+  digitalWrite(B,0);
+  digitalWrite(C,0);
+  digitalWrite(D,0);
+  digitalWrite(E,0);
+  digitalWrite(F,0);
+  digitalWrite(G,0);
+  digitalWrite(DP,1);
 }
