@@ -36,7 +36,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,0);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 1:
   digitalWrite(A,0);
@@ -47,7 +47,7 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,0);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 2:
   digitalWrite(A,1);
@@ -58,7 +58,7 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 3:
   digitalWrite(A,1);
@@ -69,7 +69,7 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 4:
   digitalWrite(A,0);
@@ -80,7 +80,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 5:
   digitalWrite(A,1);
@@ -91,7 +91,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 6:
   digitalWrite(A,1);
@@ -102,7 +102,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 7:
   digitalWrite(A,1);
@@ -113,7 +113,7 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,0);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 8:
   digitalWrite(A,1);
@@ -124,7 +124,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 9:
   digitalWrite(A,1);
@@ -135,7 +135,7 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
-  break
+  break;
 
     case 10:
   digitalWrite(A,0);
@@ -146,6 +146,6 @@ void loop()
   digitalWrite(F,0);
   digitalWrite(G,0);
   digitalWrite(DP,1);
-  break}
+  break;}
 
 }
