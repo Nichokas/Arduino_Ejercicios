@@ -24,6 +24,7 @@ void setup()
 void loop()
 {
   num=random(7,11);
+  Serial.println(num);
 
   switch(num){
 
