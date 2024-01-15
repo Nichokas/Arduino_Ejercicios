@@ -21,12 +21,33 @@ void setup()
 
 void loop()
 {
+//0
   digitalWrite(A,1);
   digitalWrite(B,1);
   digitalWrite(C,1);
   digitalWrite(D,1);
   digitalWrite(E,1);
   digitalWrite(F,1);
+  digitalWrite(G,0);
+  digitalWrite(DP,0);
+
+//1
+  digitalWrite(A,0);
+  digitalWrite(B,1);
+  digitalWrite(C,1);
+  digitalWrite(D,0);
+  digitalWrite(E,0);
+  digitalWrite(F,0);
+  digitalWrite(G,0);
+  digitalWrite(DP,0);
+
+//1
+  digitalWrite(A,0);
+  digitalWrite(B,1);
+  digitalWrite(C,1);
+  digitalWrite(D,0);
+  digitalWrite(E,0);
+  digitalWrite(F,0);
   digitalWrite(G,0);
   digitalWrite(DP,0);
 }
