@@ -61,5 +61,13 @@ void loop()
   digitalWrite(G,1);
   digitalWrite(DP,0);
 
-
+//4
+  digitalWrite(A,0);
+  digitalWrite(B,1);
+  digitalWrite(C,1);
+  digitalWrite(D,0);
+  digitalWrite(E,0);
+  digitalWrite(F,1);
+  digitalWrite(G,1);
+  digitalWrite(DP,0);
 }
