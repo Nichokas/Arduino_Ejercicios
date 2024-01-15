@@ -148,4 +148,6 @@ void loop()
   digitalWrite(DP,1);
   break;}
 
+  delay(200);
+
 }
