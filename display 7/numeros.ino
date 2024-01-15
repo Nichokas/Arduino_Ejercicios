@@ -90,4 +90,14 @@ void loop()
   digitalWrite(F,1);
   digitalWrite(G,1);
   digitalWrite(DP,0);
+
+//7
+  digitalWrite(A,1);
+  digitalWrite(B,1);
+  digitalWrite(C,1);
+  digitalWrite(D,0);
+  digitalWrite(E,0);
+  digitalWrite(F,0);
+  digitalWrite(G,0);
+  digitalWrite(DP,0);
 }
