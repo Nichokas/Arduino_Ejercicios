@@ -11,11 +11,11 @@ void setup()
 }
 
 void loop(){
-    if (P1 == 0 and P2 == 0){
+    if (digitalRead(P1) == 0 and digitalRead(P2) == 0){
         Serial.println("1");
     }
 
-    if (P1 == 1 or P2 == 2){
+    if (digitalRead(P1) == 1 or digitalRead(P2) == 2){
         Serial.println("0");
     }
 }
