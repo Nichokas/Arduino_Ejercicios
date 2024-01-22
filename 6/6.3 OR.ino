@@ -14,7 +14,7 @@ void setup()
 void loop()
 {
   if (digitalRead(P1)==0 or digitalRead(P2)==0){
-      Serial.println("1");}
+    Serial.println("1");}
 
   else{
     if (digitalRead(P2)==1 or digitalRead(P1)==1){
