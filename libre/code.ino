@@ -31,6 +31,8 @@ void setup()
   pinMode(mas, INPUT);
   pinMode(menos, INPUT);
   pinMode(st, INPUT);
+
+  Serial.begin(9600);
 }
 
 void loop()
@@ -38,8 +40,8 @@ void loop()
 
 }
 
-void dp_controler(){
-    switch{
+void dp_controler(int num){
+    switch(num){
             case 0:
         digitalWrite(A,1);
         digitalWrite(B,1);
