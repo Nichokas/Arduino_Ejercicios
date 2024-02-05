@@ -7,8 +7,7 @@ int F=4;
 int G=5;
 int DP=9;
 
-int V=0;
-int R=1;
+int R=13;
 
 int mas=10;
 int menos=11;
@@ -16,6 +15,9 @@ int st=12;
 
 int num=0;
 int x=0;
+int y;
+int z=0;
+int i=0;
 
 void setup()
 {
@@ -28,7 +30,6 @@ void setup()
   pinMode(G, OUTPUT);
   pinMode(DP, OUTPUT);
 
-  pinMode(V, OUTPUT);
   pinMode(R, OUTPUT);
 
   pinMode(mas, INPUT);
@@ -41,9 +42,49 @@ void setup()
 void loop()
 {
   if (x==0){
-    dp_contoler(0);
+    dp_controler(0);
+    digitalWrite(R,0);
+    x=1;
+  }
+  if (x==1){
+    Serial.println(y);
+    if (digitalRead(mas)==1){
+      y=y+1;
+      dp_controler(y);
+      delay(250);
+    }
+    if (digitalRead(menos)==1){
+      if (y==0){
+        Serial.println("El valor no puede ser inferior a 0");
+        digitalWrite(R,1);
+        delay(300);
+        digitalWrite(R,0);
+      }
+      else{
+        y=y-1;
+        dp_controler(y);
+        delay(250);}
+    }
+    if (digitalRead(st)==1){
+      x=2;
+      y=y;
+      Serial.println("2/");
+      }
+    }
+  if (x==2){
+    Serial.println("2");
+    for (z=0; z>y; z=z+1){
+      Serial.println("2_loop");
+      Serial.println(i);
+      delay(60000);
+      y=y-1;
+      dp_controler(y);
+      Serial.println(y);
+    x=1;
+    }
   }
 }
+  
 
 void dp_controler(int num){
     switch(num){
