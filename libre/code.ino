@@ -66,88 +66,88 @@ void dp_controler(){
         digitalWrite(A,1);
         digitalWrite(B,1);
         digitalWrite(C,0);
-    digitalWrite(D,1);
-  digitalWrite(E,1);
-  digitalWrite(F,0);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+        digitalWrite(D,1);
+        digitalWrite(E,1);
+        digitalWrite(F,0);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 3:
-  digitalWrite(A,1);
-  digitalWrite(B,1);
-  digitalWrite(C,1);
-  digitalWrite(D,1);
-  digitalWrite(E,0);
-  digitalWrite(F,0);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 3:
+        digitalWrite(A,1);
+        digitalWrite(B,1);
+        digitalWrite(C,1);
+        digitalWrite(D,1);
+        digitalWrite(E,0);
+        digitalWrite(F,0);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 4:
-  digitalWrite(A,0);
-  digitalWrite(B,1);
-  digitalWrite(C,1);
-  digitalWrite(D,0);
-  digitalWrite(E,0);
-  digitalWrite(F,1);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 4:
+        digitalWrite(A,0);
+        digitalWrite(B,1);
+        digitalWrite(C,1);
+        digitalWrite(D,0);
+        digitalWrite(E,0);
+        digitalWrite(F,1);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 5:
-  digitalWrite(A,1);
-  digitalWrite(B,0);
-  digitalWrite(C,1);
-  digitalWrite(D,1);
-  digitalWrite(E,0);
-  digitalWrite(F,1);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 5:
+        digitalWrite(A,1);
+        digitalWrite(B,0);
+        digitalWrite(C,1);
+        digitalWrite(D,1);
+        digitalWrite(E,0);
+        digitalWrite(F,1);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 6:
-  digitalWrite(A,1);
-  digitalWrite(B,0);
-  digitalWrite(C,1);
-  digitalWrite(D,1);
-  digitalWrite(E,1);
-  digitalWrite(F,1);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 6:
+        digitalWrite(A,1);
+        digitalWrite(B,0);
+        digitalWrite(C,1);
+        digitalWrite(D,1);
+        digitalWrite(E,1);
+        digitalWrite(F,1);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 7:
-  digitalWrite(A,1);
-  digitalWrite(B,1);
-  digitalWrite(C,1);
-  digitalWrite(D,0);
-  digitalWrite(E,0);
-  digitalWrite(F,0);
-  digitalWrite(G,0);
-  digitalWrite(DP,0);
-  break;
+          case 7:
+        digitalWrite(A,1);
+        digitalWrite(B,1);
+        digitalWrite(C,1);
+        digitalWrite(D,0);
+        digitalWrite(E,0);
+        digitalWrite(F,0);
+        digitalWrite(G,0);
+        digitalWrite(DP,0);
+        break;
 
-    case 8:
-  digitalWrite(A,1);
-  digitalWrite(B,1);
-  digitalWrite(C,1);
-  digitalWrite(D,1);
-  digitalWrite(E,1);
-  digitalWrite(F,1);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 8:
+        digitalWrite(A,1);
+        digitalWrite(B,1);
+        digitalWrite(C,1);
+        digitalWrite(D,1);
+        digitalWrite(E,1);
+        digitalWrite(F,1);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
 
-    case 9:
-  digitalWrite(A,1);
-  digitalWrite(B,1);
-  digitalWrite(C,1);
-  digitalWrite(D,0);
-  digitalWrite(E,0);
-  digitalWrite(F,1);
-  digitalWrite(G,1);
-  digitalWrite(DP,0);
-  break;
+          case 9:
+        digitalWrite(A,1);
+        digitalWrite(B,1);
+        digitalWrite(C,1);
+        digitalWrite(D,0);
+        digitalWrite(E,0);
+        digitalWrite(F,1);
+        digitalWrite(G,1);
+        digitalWrite(DP,0);
+        break;
     }
 }
