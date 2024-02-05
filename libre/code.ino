@@ -40,7 +40,7 @@ void setup()
 
 void loop()
 {
-  if x==0{
+  if (x==0){
     dp_contoler(0);
   }
 }
