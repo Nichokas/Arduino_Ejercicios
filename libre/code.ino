@@ -14,6 +14,9 @@ int mas=10;
 int menos=11;
 int st=12;
 
+int num=0;
+int x=0;
+
 void setup()
 {
   pinMode(A, OUTPUT);
@@ -37,7 +40,9 @@ void setup()
 
 void loop()
 {
-
+  if x==0{
+    dp_contoler(0);
+  }
 }
 
 void dp_controler(int num){
