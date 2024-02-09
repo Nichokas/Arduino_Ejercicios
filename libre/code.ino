@@ -73,9 +73,9 @@ void loop()
     }
   if (x==2){
     Serial.println("2");
-    for (z=0; z>y; z=z+1){
+    for (z=0; z<y; z=z+1){
       Serial.println("2_loop");
-      Serial.println(i);
+      Serial.println(y);
       delay(60000);
       y=y-1;
       dp_controler(y);
